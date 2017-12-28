@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c65d7336-b9a8-4e82-9a32-540ce3640167">
+  <producedTypes>
+    <refType typeId="268955ec-19a1-411c-b903-7ce8a93aeb48" valueTypeId="11b10397-0dae-40f6-ab9b-987285608d49"/>
+    <listType typeId="d054bc54-1e2e-4dc2-a6f5-bc20314b515f" valueTypeId="39944ead-7558-4a36-b284-46730e93a4db"/>
+    <managerType typeId="4c8fba55-3050-4a82-9746-b55cd49fb03d" valueTypeId="9c9aabe1-636a-4f54-b3d2-63f303f15516"/>
+  </producedTypes>
+  <name>ТипыИндикативовНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы индикативов номенклатуры</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1872cacd-793a-49ce-bb4c-a0985cdc1d55">
+    <name>МинимальнаяРозничнаяЦена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Минимальная розничная цена</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="d04fb4f3-f516-4be1-b393-eb8eb30237ba">
+    <name>МаксимальнаяРозничнаяЦена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Максимальная розничная цена</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="90a39ff8-2f59-4fd3-ade2-298e78aab13c">
+    <name>МинимальнаяНаценка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Минимальная наценка</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="d05fa420-9ee7-484d-a9d5-bff91e6f840b">
+    <name>МаксимальнаяНаценка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Максимальная наценка</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

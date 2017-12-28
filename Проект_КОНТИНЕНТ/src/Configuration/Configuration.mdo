@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0517a73b-a898-4fcf-a7b1-23cd539cf568">
+  <name>УправлениеРозницей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление розницей</value>
+  </synonym>
+  <comment></comment>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="dbeb0e83-269e-47ce-9da8-8e7abf1edff6"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="5bd8f11b-d759-4616-8682-cbc93aad3eb8"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="e071f650-2c33-4780-8d71-f00e0cd18042"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="5d4e86c1-d7ff-452c-80cd-5042f62f9d34"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="6bd6114f-d12e-4fa4-a2bf-2ceff5e5e91a"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="c1e3aaba-54b2-4264-8608-901ffef7098c"/>
+  <namePrefix></namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.10</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor></vendor>
+  <version></version>
+  <updateCatalogAddress></updateCatalogAddress>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousExtensionAndAddInCallUseMode>DontUse</synchronousExtensionAndAddInCallUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.7</compatibilityMode>
+  <languages uuid="817e6463-9582-49d4-af07-d7c82e0e889f">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <comment></comment>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Запасы</subsystems>
+  <subsystems>Subsystem.СправочнаяИнформация</subsystems>
+  <subsystems>Subsystem.Контрагенты</subsystems>
+  <subsystems>Subsystem.УправлениеАссортиментом</subsystems>
+  <commonModules>CommonModule.ОбщегоНазначенияКлиентСервер</commonModules>
+  <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.ТорговыеПлощадки</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.ДоговорыКонтрагентов</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.Единицы</catalogs>
+  <catalogs>Catalog.КлассификаторЕдиницИзмерения</catalogs>
+  <catalogs>Catalog.КлассификаторКодовУКТВЭД</catalogs>
+  <catalogs>Catalog.ВидыНоменклатуры</catalogs>
+  <catalogs>Catalog.ФизическиеЛица</catalogs>
+  <catalogs>Catalog.ШаблоныВесовыхШтрихкодов</catalogs>
+  <catalogs>Catalog.ХарактеристикиНоменклатуры</catalogs>
+  <catalogs>Catalog.АссортиментныеМатрицы</catalogs>
+  <catalogs>Catalog.КластераАссортимента</catalogs>
+  <enums>Enum.СтавкиНДС</enums>
+  <enums>Enum.СтатусыВАссортиментнойМатрице</enums>
+  <enums>Enum.АлгоритмыПереоценки</enums>
+  <enums>Enum.ТипыШтрихкодов</enums>
+  <enums>Enum.ТипыИндикативовНоменклатуры</enums>
+  <informationRegisters>InformationRegister.Штрихкоды</informationRegisters>
+  <informationRegisters>InformationRegister.НоменклатураАссортиментныхМатриц</informationRegisters>
+  <informationRegisters>InformationRegister.СпецификацииПоставщиков</informationRegisters>
+</mdclass:Configuration>

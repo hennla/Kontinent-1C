@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bea2d3d7-75a2-4b75-83b5-a4ef2c99c9a7">
+  <producedTypes>
+    <objectType typeId="8a0484cc-e997-43c6-bfd8-21b8ededdf87" valueTypeId="48c0cc80-f0a1-4063-a09f-086527616819"/>
+    <refType typeId="10aba54c-4d9a-49e4-acce-9ee044592bf8" valueTypeId="6b3276de-14a7-459d-b4df-2227a91e90a2"/>
+    <selectionType typeId="261c710f-98f8-479a-bcba-0c7a4150f7db" valueTypeId="9bc86137-191b-4cec-bcad-3863b76a551b"/>
+    <listType typeId="d44009eb-08be-4f17-96e5-12b1886c4b63" valueTypeId="f0eac9cb-4771-40fd-be69-58d84cc75217"/>
+    <managerType typeId="b80318fa-56e1-4714-9128-19a420563625" valueTypeId="e66e835a-bb91-47f4-b098-c468f82d3e9a"/>
+  </producedTypes>
+  <name>ВидыНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды номенклатуры</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыНоменклатуры.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВидыНоменклатуры.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="9e6c20be-f827-459d-8886-6fe0c638f5ee">
+      <name>Заготовка</name>
+      <description>Заготовка</description>
+      <code xsi:type="core:StringValue">
+        <value>000000008</value>
+      </code>
+    </items>
+    <items id="57a31991-18dd-4f17-946d-f3e7e02df206">
+      <name>Компонент</name>
+      <description>Компонент</description>
+      <code xsi:type="core:StringValue">
+        <value>000000007</value>
+      </code>
+    </items>
+    <items id="fc68e44d-e458-4a3a-9432-e0332882b4ca">
+      <name>Оборудование</name>
+      <description>Оборудование</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+    <items id="fdfe67fc-59f4-4ca5-8412-c488bef82598">
+      <name>Продукция</name>
+      <description>Продукция</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="33f7e037-f0b9-4923-9d20-830358abeafe">
+      <name>РасходныйМатериал</name>
+      <description>Расходный материал</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="b4267509-c9e9-4d46-9df8-9bb329ea27ce">
+      <name>Сырье</name>
+      <description>Сырье</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="be79831f-abb4-4852-a6b6-8638bd6fb557">
+      <name>Тара</name>
+      <description>Тара</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+    <items id="aa3bf01d-6177-437d-bde8-549873af46b9">
+      <name>Товар</name>
+      <description>Товар</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="2c0b3fed-92a2-43cb-ae5a-b15d44bbb152">
+      <name>Услуга</name>
+      <description>Услуга</description>
+      <code xsi:type="core:StringValue">
+        <value>000000009</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

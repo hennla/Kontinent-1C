@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3394d644-ba7b-4c1b-b6fb-9bc6c7cf2be0">
+  <producedTypes>
+    <refType typeId="989fa91c-88ef-4b2e-a1f5-2f8f0e9bb8a1" valueTypeId="5adcf30f-62d5-4cdb-92be-856e04200014"/>
+    <listType typeId="8095f39e-265c-430c-afb1-5fafa64ff60a" valueTypeId="2a5856d4-92c7-4c41-9d66-dc5dc71af514"/>
+    <managerType typeId="4cc9f2a0-f15b-41f0-934d-42110cf5135f" valueTypeId="354ddf8c-245c-47d0-a51b-5ff00edd4681"/>
+  </producedTypes>
+  <name>СтатусыВАссортиментнойМатрице</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы в ассортиментной матрице</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6021046a-df7b-4ee6-81c2-60fef691574a">
+    <name>Тестовый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тестовый</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="2eb4e885-8c0f-41df-96c1-3421f3f4efce">
+    <name>Активный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Активный</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="51c12e2c-fd86-416a-8999-b6a926e55af1">
+    <name>Маяк</name>
+    <synonym>
+      <key>ru</key>
+      <value>Маяк</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="1f843a25-2844-4092-9450-699ad8041789">
+    <name>Неактивный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неактивный</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

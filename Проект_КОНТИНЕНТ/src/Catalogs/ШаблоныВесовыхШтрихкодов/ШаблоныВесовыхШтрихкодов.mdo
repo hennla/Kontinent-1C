@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="51656a2c-26c6-4f45-b343-806f4cca68e4">
+  <producedTypes>
+    <objectType typeId="f448325e-e1d5-49f1-9b80-582bc7196b48" valueTypeId="4abfe924-25d3-4e34-a669-366bb4838ddf"/>
+    <refType typeId="41629aa0-5839-4996-89a0-54a381750ac6" valueTypeId="8b94439f-957e-4973-be62-7a09ccebcba8"/>
+    <selectionType typeId="502cf01d-95d0-4ea6-8db7-a81c37c4b228" valueTypeId="61d96f0a-f48d-477c-a344-9553770fa8e5"/>
+    <listType typeId="a5d41673-7e6d-4f81-8c45-7dd4811724bc" valueTypeId="dbf731ce-dbab-4411-90ba-29d7f0bcfa6f"/>
+    <managerType typeId="4b78a126-ceaf-482f-a489-7036147245f6" valueTypeId="7330b15d-aa60-4d9e-a19b-cdc962320c23"/>
+  </producedTypes>
+  <name>ШаблоныВесовыхШтрихкодов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шаблоны весовых штрихкодов</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ШаблоныВесовыхШтрихкодов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ШаблоныВесовыхШтрихкодов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <attributes uuid="a51f5a78-c3c7-4eb3-b62f-295b2a1218a6">
+    <name>Шаблон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>13</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="8dfb306a-3c02-43e8-91ae-f3c526512186">
+    <name>Префикс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Префикс</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="a133c35e-8ce0-47c9-9e8d-616d54a9e2ae">
+    <name>ДлинаКода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Длина кода</value>
+    </synonym>
+    <comment>Длина кода с префиксом</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+</mdclass:Catalog>

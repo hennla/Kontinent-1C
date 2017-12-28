@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="98db72ed-1a18-4d31-a57d-d92580209856">
+  <name>Запасы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запасы</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Номенклатура</content>
+  <content>Catalog.Склады</content>
+  <content>Catalog.Единицы</content>
+  <content>InformationRegister.Штрихкоды</content>
+  <content>Catalog.ШаблоныВесовыхШтрихкодов</content>
+  <content>Catalog.ХарактеристикиНоменклатуры</content>
+</mdclass:Subsystem>

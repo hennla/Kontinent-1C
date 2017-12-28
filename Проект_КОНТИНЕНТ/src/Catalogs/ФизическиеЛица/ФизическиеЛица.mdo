@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fbeb0176-5cce-4862-a9e0-155d20420d0c">
+  <producedTypes>
+    <objectType typeId="f2f9134c-626a-4602-a2a4-eb95610941f2" valueTypeId="295a983f-9853-4caf-aaad-0898c51809d3"/>
+    <refType typeId="b01d3d5e-b950-418e-99d4-14225b1c646c" valueTypeId="d65856fc-ae51-4e9e-936e-d544ff69da40"/>
+    <selectionType typeId="e490c527-81cc-43e7-a90a-60256bc090ef" valueTypeId="c445db2d-84ff-47af-9a4e-8548638c58ea"/>
+    <listType typeId="23956c03-a22d-4e9d-831f-0a41b289589b" valueTypeId="08af21bb-d3f9-47b7-9bb6-f048abd48c7d"/>
+    <managerType typeId="3a1f2445-1ddc-4eac-b9a8-38f7207a8e78" valueTypeId="9e5246db-70ef-4868-9d76-5fb3ff570add"/>
+  </producedTypes>
+  <name>ФизическиеЛица</name>
+  <synonym>
+    <key>ru</key>
+    <value>Физические лица</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ФизическиеЛица.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ФизическиеЛица.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

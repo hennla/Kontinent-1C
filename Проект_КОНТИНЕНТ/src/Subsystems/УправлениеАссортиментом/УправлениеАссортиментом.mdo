@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="72019ffd-0ff1-4193-8ad7-bb49c623aa3f">
+  <name>УправлениеАссортиментом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление ассортиментом</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.НоменклатураАссортиментныхМатриц</content>
+  <content>Catalog.АссортиментныеМатрицы</content>
+  <content>Catalog.КластераАссортимента</content>
+</mdclass:Subsystem>

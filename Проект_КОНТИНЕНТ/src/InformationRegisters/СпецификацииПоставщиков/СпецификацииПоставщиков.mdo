@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6e96fc96-3249-4d8d-b71c-41f3210ea9e4">
+  <producedTypes>
+    <selectionType typeId="a9c2eb15-2d1d-4a00-9be3-4c0f1f9f0030" valueTypeId="9ed522fb-cc36-4305-9091-24415cce9926"/>
+    <listType typeId="66d6c563-70d9-4990-af4c-cf8d2eb53952" valueTypeId="bee47f0a-520a-4c6c-ab39-65c45f6c30ea"/>
+    <managerType typeId="fa7b4a09-e860-4a3f-a2ab-e0da630c7174" valueTypeId="6492c3b1-ec93-40ab-b17e-c30eea363b54"/>
+    <recordSetType typeId="923995d3-6a32-4f9f-8582-d4cac89c7e27" valueTypeId="53007cca-3232-4b00-9d0c-167b8eecdf37"/>
+    <recordKeyType typeId="387c2e91-c91c-4d63-99eb-67d7aaaa8e48" valueTypeId="d64eb0a1-ba2f-4096-8d6c-c9705a3aa2d2"/>
+    <recordType typeId="609ed10e-43b7-408b-a83b-eecb74e2d4bd" valueTypeId="5ed0ea11-d97a-4ff9-b00c-8430b39bc246"/>
+    <recordManagerType typeId="3ba91522-ecce-45ab-93bd-d67097bad920" valueTypeId="1c8ed0de-c4e6-4afb-afe2-a25bbe81327c"/>
+  </producedTypes>
+  <name>СпецификацииПоставщиков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Спецификации поставщиков</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="0cabf236-9796-417b-8d35-b9d4e661a8ad">
+    <name>Цена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <scale>4</scale>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="3dc33637-1f0d-407d-9213-380779a36890">
+    <name>СтавкаНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ставка НДС</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.СтавкиНДС</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d67289ce-05c6-4f9d-b574-69fb39d9e0dc">
+    <name>ЦенаБезНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена без НДС</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>4</scale>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="d010775d-0b1a-401d-b4c2-daeac78434f2">
+    <name>ДоговорКонтрагента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор контрагента</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ДоговорыКонтрагентов</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e68ac659-ee07-4a4f-8196-599cfe4a61bb">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

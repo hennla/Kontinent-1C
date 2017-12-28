@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5b7cd800-3c9a-4d2e-aaa8-2a7db3a4656b">
+  <producedTypes>
+    <objectType typeId="7ba1d1fa-ad6a-4e64-972e-41a8528dac99" valueTypeId="2ee46d84-bd28-4bbb-9fca-9f42fd16c658"/>
+    <refType typeId="db60091e-f100-4b36-b6d2-388ee3ef0adc" valueTypeId="f60a8b98-ac1e-49ad-a2c4-2053682c42bb"/>
+    <selectionType typeId="bc6d69a1-8cef-4bbc-a16e-949eb0a7555d" valueTypeId="6eaa6545-26bb-4222-987b-85c09aa7b40c"/>
+    <listType typeId="1027fd49-9360-4877-8296-50fc983bc7fc" valueTypeId="21d1a817-a74f-47d5-a63e-3080d0ce1393"/>
+    <managerType typeId="693711db-38c2-4484-9cfd-b62f769a7ae2" valueTypeId="407ebb2d-9dcb-45ff-936f-a5b0d15d9823"/>
+  </producedTypes>
+  <name>Организации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Организации</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Организации.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Организации.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>64</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="bc4a2068-6211-49e6-bfe2-a120c543c039">
+    <name>НаименованиеПолное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование полное</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+  </attributes>
+</mdclass:Catalog>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2c64351f-5018-4c9c-aa7a-8a8cd593ebf1">
+  <producedTypes>
+    <objectType typeId="78bcdd22-8dad-4d4e-a5a8-594cdeb47b6c" valueTypeId="5d7b78e8-593b-489c-bfa5-9a0c753feb27"/>
+    <refType typeId="a6a56398-74c4-4f13-a9af-723e251dbe68" valueTypeId="0d10663b-6733-4871-a258-fa40243499a0"/>
+    <selectionType typeId="86fd97c8-f9e7-47c9-b775-63f31d388042" valueTypeId="8f8abe25-208f-4ce0-b9c5-c1a92b4b26e1"/>
+    <listType typeId="dd73815f-71ea-4dad-ad85-123a3e039f33" valueTypeId="7b41666e-0b60-42fb-9c97-d902a43065c6"/>
+    <managerType typeId="8c379a55-ebcb-48b6-861b-79fc856aea10" valueTypeId="78210e8c-1b31-4625-86cc-2a9b78b47b93"/>
+  </producedTypes>
+  <name>АссортиментныеМатрицы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ассортиментные матрицы</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.АссортиментныеМатрицы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.АссортиментныеМатрицы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

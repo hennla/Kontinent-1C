@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="673673c5-5014-46d7-b9c1-c03401072b2f">
   <producedTypes>
-    <selectionType typeId="5e4ae0c4-c04b-402f-959d-c845e39c29a1" valueTypeId="d722ebf2-e54c-4a17-a139-36cb7b3949d9"/>
-    <listType typeId="b985a597-8392-48f4-a062-1adec79be166" valueTypeId="33941507-5346-43f3-a6dd-146774471598"/>
-    <managerType typeId="5bcc4076-9b12-46ff-b10d-8bf1c89eb9f2" valueTypeId="7d1dd30b-90a5-44d3-b953-4b24a3b7c7ca"/>
-    <recordSetType typeId="74c213cc-6b2b-4c2b-9d90-c02bbcacd061" valueTypeId="27dab0c0-8bc9-4a42-9069-96064f793652"/>
-    <recordKeyType typeId="b517f6ca-a0b5-4ac6-a42f-8693af24ca69" valueTypeId="ebb512bc-7946-4489-95bb-4d18e6cc1ea1"/>
-    <recordType typeId="44c939be-cf67-416f-a047-3fe2cfe4011f" valueTypeId="ad58b64c-ab3a-4f53-9ba2-4c9f7ecd84db"/>
-    <recordManagerType typeId="b49b188e-7c71-40f5-aa11-1d8f575aa9ae" valueTypeId="73767457-0a02-449c-8f86-00a5d2b1dca4"/>
+    <selectionType typeId="5e4ae0c4-c04b-402f-959d-c845e39c29a1" valueTypeId="d722ebf2-e54c-4a17-a139-36cb7b3949d9">
+    </selectionType>
+    <listType typeId="b985a597-8392-48f4-a062-1adec79be166" valueTypeId="33941507-5346-43f3-a6dd-146774471598">
+    </listType>
+    <managerType typeId="5bcc4076-9b12-46ff-b10d-8bf1c89eb9f2" valueTypeId="7d1dd30b-90a5-44d3-b953-4b24a3b7c7ca">
+    </managerType>
+    <recordSetType typeId="74c213cc-6b2b-4c2b-9d90-c02bbcacd061" valueTypeId="27dab0c0-8bc9-4a42-9069-96064f793652">
+    </recordSetType>
+    <recordKeyType typeId="b517f6ca-a0b5-4ac6-a42f-8693af24ca69" valueTypeId="ebb512bc-7946-4489-95bb-4d18e6cc1ea1">
+    </recordKeyType>
+    <recordType typeId="44c939be-cf67-416f-a047-3fe2cfe4011f" valueTypeId="ad58b64c-ab3a-4f53-9ba2-4c9f7ecd84db">
+    </recordType>
+    <recordManagerType typeId="b49b188e-7c71-40f5-aa11-1d8f575aa9ae" valueTypeId="73767457-0a02-449c-8f86-00a5d2b1dca4">
+    </recordManagerType>
   </producedTypes>
   <name>НоменклатураАссортиментныхМатриц</name>
   <synonym>
@@ -18,6 +25,7 @@
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
   <mainFilterOnPeriod>true</mainFilterOnPeriod>
   <dataLockControlMode>Managed</dataLockControlMode>
   <resources uuid="8a776518-9b79-4316-b669-8c388356ee08">

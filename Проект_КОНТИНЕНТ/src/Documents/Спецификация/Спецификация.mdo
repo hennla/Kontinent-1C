@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2113412c-f4a2-418b-8e4b-f1d622ea609e">
+  <producedTypes>
+    <objectType typeId="aa67452c-00d9-4983-a007-b8cea8603919" valueTypeId="834d9c6f-5f8d-4cfd-a5d6-8b87716d4898">
+    </objectType>
+    <refType typeId="22e1cfeb-a721-4c67-98b3-d725d9f4f9f1" valueTypeId="eeb78ec1-e6ba-4c12-bab3-57d6e5053512">
+      <emptyRef/>
+    </refType>
+    <selectionType typeId="c40f2103-d3c7-44d7-82fc-1d7e518b4025" valueTypeId="ebc4c442-1c3d-459a-ae17-c45196fd8975">
+    </selectionType>
+    <listType typeId="3d0d9108-a538-4aad-83a1-d185484555dc" valueTypeId="6e056037-3176-4727-8b35-b6dcb0515e3a">
+    </listType>
+    <managerType typeId="e23eed80-7a21-4fc5-8f4b-03d9bbcb737a" valueTypeId="6c2a3309-97e4-4ef4-b901-07d924649eb4">
+    </managerType>
+  </producedTypes>
+  <name>Спецификация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Спецификация</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Спецификация.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="6899dac1-3ec1-48f2-a7e3-ddc27d58f6ae">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="aa76d465-bb2e-47f4-9b8c-09624e5f4cc5">
+    <name>ДоговорКонтрагента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор контрагента</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДоговорыКонтрагентов</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <tabularSections uuid="43704b06-4e69-4926-bde1-c060c14852fa">
+    <producedTypes>
+      <objectType typeId="0dc6989f-97a2-4cbc-a0a5-8b33201d0957" valueTypeId="990e097d-a274-4ce0-ae83-e582e239cada">
+      </objectType>
+      <rowType typeId="dbfd8359-4f69-413b-9ca4-7e78620ed48e" valueTypeId="d988e57b-e4de-4fa4-8b87-be2dc0caf8ce">
+      </rowType>
+    </producedTypes>
+    <name>ВводТоваров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ввод товаров</value>
+    </synonym>
+    <attributes uuid="1fe5d055-5be1-45b8-a47d-d95e7df77f00">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+    </attributes>
+    <attributes uuid="2cb28614-2568-4850-8862-4c6663203a7f">
+      <name>Единица</name>
+      <synonym>
+        <key>ru</key>
+        <value>Единица</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Единицы</types>
+      </type>
+    </attributes>
+    <attributes uuid="33baa728-1a9c-4a3f-8767-972815f12229">
+      <name>Цена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>12</precision>
+          <scale>4</scale>
+        </numberQualifiers>
+      </type>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="12c4eac3-5b75-4f35-88bc-9b8c5ef76583">
+    <producedTypes>
+      <objectType typeId="6e4e9b85-0501-489e-a61b-c2245c2e9105" valueTypeId="5776e97c-b0a6-44e3-8b3e-738d734291bc">
+      </objectType>
+      <rowType typeId="0b53f2d2-ae3f-4f06-91d7-02675c808409" valueTypeId="9ca253b0-85d7-4099-822c-5a6c35f4c723">
+      </rowType>
+    </producedTypes>
+    <name>ВыводТоваров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вывод товаров</value>
+    </synonym>
+  </tabularSections>
+</mdclass:Document>
